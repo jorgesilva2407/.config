@@ -229,6 +229,10 @@ run = 'move-node-to-workspace V'
 if.app-id = 'com.electron.dockerdesktop'
 run = 'move-node-to-workspace D'
 
+[[on-window-detected]]
+if.app-id = 'md.obsidian'
+run = 'move-node-to-workspace O'
+
 
 [[on-window-detected]]
 if.app-id = 'com.apple.finder'
