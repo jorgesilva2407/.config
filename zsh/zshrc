@@ -123,6 +123,7 @@ alias find=fd
 alias ll="ls -alh"
 alias cat=bat
 alias vim=nvim
+alias ls=eza
 
 export PATH="$HOME/.pyenv/bin:$PATH"
 eval "$(pyenv init --path)"
