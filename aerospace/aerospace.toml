@@ -214,10 +214,6 @@ if.app-id = 'org.mozilla.firefox'
 run = 'move-node-to-workspace F'
 
 [[on-window-detected]]
-if.app-id = 'com.github.wez.wezterm'
-run = 'move-node-to-workspace T'
-
-[[on-window-detected]]
 if.app-id = 'net.whatsapp.WhatsApp'
 run = 'move-node-to-workspace W'
 
@@ -238,4 +234,7 @@ run = 'move-node-to-workspace O'
 if.app-id = 'com.apple.finder'
 run = 'layout floating'
 
+[[on-window-detected]]
+if.app-id = 'com.mitchellh.ghostty'
+run = 'move-node-to-workspace T'
 
