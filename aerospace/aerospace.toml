@@ -113,6 +113,7 @@ alt-shift-l = 'move right'
 alt-shift-minus = 'resize smart -50'
 alt-shift-equal = 'resize smart +50'
 
+alt-f = ['layout floating tiling', 'mode main']
 alt-shift-f = 'fullscreen'
 
 # See: https://nikitabobko.github.io/AeroSpace/commands#workspace
@@ -130,7 +131,6 @@ alt-b = 'workspace B'
 alt-c = 'workspace C'
 alt-d = 'workspace D'
 alt-e = 'workspace E'
-alt-f = 'workspace F'
 alt-g = 'workspace G'
 alt-i = 'workspace I'
 alt-m = 'workspace M'
@@ -252,4 +252,8 @@ run = 'move-node-to-workspace N'
 [[on-window-detected]]
 if.app-id = 'com.spotify.client'
 run = 'move-node-to-workspace S'
+
+[[on-window-detected]]
+if.app-id = 'com.clickup.desktop-app'
+run = 'move-node-to-workspace C'
 
